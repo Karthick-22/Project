@@ -1,0 +1,182 @@
+.home img
+{
+width: 200px;
+height: 90px;
+opacity:0.8;
+}
+.home
+{
+margin: 20px;
+padding:0;
+text-align: center;
+transition: 0.5s ease;
+opacity:1;
+}
+ul
+{
+float:right;
+margin:50px;
+opacity:3;
+}
+.home ul li
+{
+list-style-type:none;
+display:inline-block;
+}
+.home ul li a
+{
+padding:5px 20px;
+font-size:20px;
+color:maroon;
+text-decoration:double;
+
+}
+.home ul li a:hover{
+      background-color: #fff;
+}
+.col
+{    
+      top: 50%;
+     margin-top: 100px;
+     text-align: center; 
+     
+}
+.col h1
+{
+font-size: 50px;
+color:rgba(165, 42, 42, 0.788);
+}
+.col p
+{
+      
+     margin-left: 50px;
+     color:rgb(4, 7, 7);
+     font-size: 20px;
+}
+.col button
+{
+width: 140px;
+color: #000;
+font-size: 18px;
+padding: 11px 0;
+background:lightsalmon;
+border-radius: 25px;
+outline: none;
+margin-top: 30px;
+opacity:0.8;
+}
+.col button:hover{
+      background-color: cadetblue;
+}
+#reg 
+{
+max-width:375px;  
+border-radius: 20x;
+ margin: auto;
+ background: rgba(0, 0, 0, 0.8);
+ box-sizing:border-box;
+ padding: 40px;
+ color: #fff;
+ margin-top: 100px;
+ opacity: 0.9;
+ font-weight: bold;
+}
+#reg h1
+{
+      text-align: center;
+ }
+#reg input[type=text],#reg input[type=password]
+{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12x 0;
+      background: rgba(206, 8, 8, 0.1);
+      border: none;
+      outline:none;
+      border-bottom: 1px solid #fff;
+      color:#fff;
+      border-radius: 20px;
+      margin: 15px;
+      }
+#reg input[type=submit]
+{
+      margin-left: 40px;
+      width: 75%;
+      box-sizing: border-box;
+      padding: 10px 0;
+      margin-top: 30px;
+      outline: none;
+      border: none;
+      background:#2ebf1b25;
+      
+      border-radius:20px;
+      font-size:20px;
+      color:#fff;
+}
+#reg input[type=submit]:hover
+{
+      background:#87041e;
+      opacity: 1;
+}
+#login
+{
+width: 350px;
+height:320px;
+border-radius: 5px;
+background:rgba(0,0,0,0.5) ;
+box-sizing: border-box;
+margin-top: 150px;
+margin-left: 700px;
+}
+#login{
+    text-align: center;
+    padding: 20px;
+    margin-left: 650px;
+      color: #fff;
+     
+      
+}
+#login input[type=text], #login input[type=password]{
+      width: 200px;
+      height: 30px;
+      margin: 10px;
+      margin-left: 60px;
+     border-radius: 10px;
+     border: 0;
+     font-weight: bold;
+     background-color: black;
+     color: #fff;
+}
+#login input[type=submit]{
+     
+      margin: 15px;   
+      border-radius: 10px; 
+      border:0;
+      width:100px;
+      height:35px;
+      background-color: rgb(0, 255, 221);
+      margin-left: 60px;
+}
+#login a
+{
+      color:white;
+      margin-left: 60px;
+
+}
+#login input[type=submit]:hover{
+      background:rgb(17, 70, 139);
+}
+
+
+#Contact {
+    background-image: url(../static/images/alaska.jpg);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    
+
+
+}
